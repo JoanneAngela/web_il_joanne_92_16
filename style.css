@@ -1,0 +1,107 @@
+body{
+background-color: black;
+}
+
+.header {
+    width: 1250px;
+    text-align: left;
+    height: 175px;
+    background-color: black;
+}
+
+/* Kode CSS Navigator */
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 10px 0px;
+    background-color: black;
+    width: 1280px;
+    height 10px;
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+    height: 60px;
+    padding: 8px 5px;
+}
+
+ul li a {
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+ul li a:hover {
+    background-color: black;
+}
+
+/* Kode CSS */
+ul li ul.dropdown {
+    background: goldenrod;
+    position: absolute;
+    display: none;
+    width: auto;
+    height: auto;
+    margin: 0px;
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+}
+
+/* Kode CSS Side Bar */
+.column {
+    float: left;
+    padding: 0px 10px;
+}
+
+/* Left Column */
+.column.middle {
+    margin: 10px 0px;
+    width: 1250px;
+    height:10px;
+    background-color: white;
+    background-color:black;
+    color: white;
+    letter-spacing: 1.5px;
+    line-height: 20px;
+    word-spacing: 5px;
+    text-align: justify;
+}
+
+
+
+/* Additional CSS for Content Layout */
+.content {
+    margin-top: 200px; /* Adjust to avoid overlap with fixed elements */
+}
+
+.image-container {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.text-container {
+    margin-top: 20px;
+    clear: both; /* Ensure text is below floated elements */
+}
+
+.sdgs{
+    margin: 20px 10px;
+}
+
+.src{
+   text-align: center;
+    height: 750px;
+    width: 900px;
+    margin: 10px;
+}
